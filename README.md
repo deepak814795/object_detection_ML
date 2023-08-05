@@ -1,4 +1,5 @@
 # Object Detection Model Using Tensorflow and Coco SSD
+#### Screenshots available at bottom of the page.
 This is a realtime Object detection model that aims to localize and identify multiple objects in a single image.
 
 This model is a TensorFlow.js port of the COCO-SSD model. For more information about Tensorflow object detection API, check out this readme in tensorflow/object_detection.
