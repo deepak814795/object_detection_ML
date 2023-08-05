@@ -1,12 +1,10 @@
 # Object Detection Model Using Tensorflow and Coco SSD
 ## Screenshots are available at bottom of the page. <br>
 This is a realtime Object detection model that aims to localize and identify multiple objects in a single image.
-
-This model is a TensorFlow.js port of the COCO-SSD model. For more information about Tensorflow object detection API, check out this readme in tensorflow/object_detection.
-
-This model detects objects defined in the COCO dataset, which is a large-scale object detection, segmentation, and captioning dataset. You can find more information here. The model is capable of detecting 80 classes of objects. (SSD stands for Single Shot MultiBox Detection).
-
-It can take input as live video from webcam and returns an array of bounding boxes with class name and confidence level for the diffrent objects identified.
+## Tech Stack Used->
+#### Tensorflow.Js : Tensorflow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources. It provides stable Python and C++ APIs, as well as a non-guaranteed backward compatible API for other languages.
+#### Coco SSD model : COCO is a large-scale object detection, segmentation, and captioning dataset. It contains 80 classes of obkects.
+#### React.JS : ReactJS is a declarative, efficient, and flexible JavaScript library for building user interfaces. It is an open-source, component-based front-end library that is responsible only for the view layer of the application.
 
 ## API
 ### Loading the model
