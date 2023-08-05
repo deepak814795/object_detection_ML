@@ -9,7 +9,7 @@ It can take input as live video from webcam and returns an array of bounding box
 
 ## API
 ### Loading the model
-Coco-ssd is the module name, which is automatically included when you use the <script src> method. When using ES6 imports, coco-ssd is the module.
+Coco-ssd is the module name, which is automatically included when you use the <script src> method. When using ES6 imports, coco-ssd is the module.<br>
 Args: config Type of ModelConfig interface with following attributes:
 
 * base: Controls the base cnn model, can be 'mobilenet_v1', 'mobilenet_v2' or 'lite_mobilenet_v2'. Defaults to 'lite_mobilenet_v2'. lite_mobilenet_v2 is smallest in size, and fastest in inference speed. mobilenet_v2 has the highest classification accuracy.
